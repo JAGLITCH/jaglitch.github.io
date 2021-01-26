@@ -1,11 +1,13 @@
-/* base style */
 *
 {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
-
+body
+{
+  overflow: hidden;
+}
 /* navigation bar */
 nav
 {
@@ -17,7 +19,6 @@ nav
   font-family: 'Righteous', cursive;
 }
 
-/* top bar */
 .logo
 {
 
@@ -40,8 +41,6 @@ nav
 {
   font-size: 20px;
 }
-
-/* Nav links */
 .nav-links
 {
   display: flex;
@@ -60,10 +59,10 @@ nav
   letter-spacing: 3px;
   font-weight: bold;
   font-size: 14px;
-
 }
-.nav-links a:hover
+.nav-links :hover
 {
+  
   color: whitesmoke;
 }
 /* Burger icon for mobile */
@@ -82,31 +81,33 @@ nav
   transition: all 0.5s ease;
 }
 
-/* footer */
  footer
  {
-   position: absolute; bottom: 0; left: 0; right: 0; height: 5%;
+   position: absolute; bottom: 0; left: 0; right: 0; height: 30px;
    display: inline-flex;
    justify-content: space-around;
    padding: 3px;
    background-color: black;
    color: whitesmoke;
  }
+/* End of universe style */
 
- footer a
- {
-   font-size: 28px;
-   text-decoration: none;
-   color: whitesmoke;
- }
 
- footer a:hover
- {
-   color: #4267b2;
- }
+/* index  style */
 
-/* page responsiveness */
-/* larger veiw port */
+
+.mpg img
+{
+   
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  position: absolute; bottom: 30px;
+  display: block;
+  object-fit: contain;
+  z-index: -1;
+}
+
 @media screen and (max-width:1024px)
 {
   .nav-links
@@ -115,7 +116,6 @@ nav
   }
 }
 
-/* smaller veiwport */
 @media screen and (max-width:768px)
 {
   body
@@ -141,19 +141,17 @@ nav
     opacity: 0;
   }
 
-/* show burger */  
+  
   .burger
   {
     display: block;
   }
 }
-/* burger actions */
 .nav-active
 {
   transform: translateX(0%);
 }
 
-/* burger animation*/
 @keyframes navLinkFade
 {
   from
