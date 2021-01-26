@@ -1,0 +1,183 @@
+/* base style */
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* navigation bar */
+nav
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #7da74d;
+  font-family: 'Righteous', cursive;
+}
+
+/* top bar */
+.logo
+{
+
+  display: inline-flex;
+
+}
+
+.logo img
+ {
+    height: 40px;
+    width: 52px;
+    
+ }
+ .logo img:hover
+ {
+   content:url("../assets/logo-alpha-neg.png")
+ }
+
+.logo h4
+{
+  font-size: 20px;
+}
+
+/* Nav links */
+.nav-links
+{
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+.nav-links li
+{
+  list-style: none;
+}
+
+.nav-links a
+{
+  color: black;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+
+}
+.nav-links a:hover
+{
+  color: whitesmoke;
+}
+/* Burger icon for mobile */
+.burger
+{
+  display: none;
+  cursor: pointer;
+}
+
+.burger div
+{
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  margin: 3px;
+  transition: all 0.5s ease;
+}
+
+/* footer */
+ footer
+ {
+   position: absolute; bottom: 0; left: 0; right: 0; height: 5%;
+   display: inline-flex;
+   justify-content: space-around;
+   padding: 3px;
+   background-color: black;
+   color: whitesmoke;
+ }
+
+ footer a
+ {
+   font-size: 28px;
+   text-decoration: none;
+   color: whitesmoke;
+ }
+
+ footer a:hover
+ {
+   color: #4267b2;
+ }
+
+/* page responsiveness */
+/* larger veiw port */
+@media screen and (max-width:1024px)
+{
+  .nav-links
+  {
+    width: 60%;
+  }
+}
+
+/* smaller veiwport */
+@media screen and (max-width:768px)
+{
+  body
+  {
+    overflow-x: hidden;
+  }
+  .nav-links
+  {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: #6696a5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .nav-links li
+  {
+    opacity: 0;
+  }
+
+/* show burger */  
+  .burger
+  {
+    display: block;
+  }
+}
+/* burger actions */
+.nav-active
+{
+  transform: translateX(0%);
+}
+
+/* burger animation*/
+@keyframes navLinkFade
+{
+  from
+  {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to
+  {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+}
+
+.toggle .line1
+{
+  transform: rotate(-45deg) translate(-4px,5px);
+}
+.toggle .line2
+{
+  opacity: 0;
+}
+.toggle .line3
+{
+  transform: rotate(45deg) translate(-4px,-5px);
+}
