@@ -4,12 +4,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
-body
-{
-  max-width: 100%;
-  max-height: 100%;
-  overflow: hidden;
-}
+
 /* navigation bar */
 nav
 {
@@ -17,7 +12,7 @@ nav
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: #7da74d;
+  background-color: #ab1e24;
   font-family: 'Righteous', cursive;
 }
 
@@ -92,23 +87,8 @@ nav
    background-color: black;
    color: whitesmoke;
  }
-/* End of universe style */
 
 
-/* index  style */
-
-
-.mpg img
-{
-   
-  width: 100%;
-  height: 100%;
-  padding: 5%;
-  position: absolute; bottom: 30px;
-  display: block;
-  object-fit: contain;
-  z-index: -1;
-}
 
 @media screen and (max-width:1024px)
 {
@@ -120,26 +100,31 @@ nav
 
 @media screen and (max-width:768px)
 {
-
+ 
+ 
   .nav-links
   {
     position: absolute;
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: #6696a5;
+    background-color: #75777c;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 50%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
+    opacity: 0;
+    overflow: hidden;
   }
   .nav-links li
   {
     opacity: 0;
-  }
 
+  }
+ 
+  
   
   .burger
   {
@@ -148,7 +133,9 @@ nav
 }
 .nav-active
 {
-  transform: translateX(0%);
+  opacity: 1;
+  transform: translateX(0%); 
+  
 }
 
 @keyframes navLinkFade
@@ -160,7 +147,9 @@ nav
   }
   to
   {
+    
     opacity: 1;
+    
     transform: translateX(0);
   }
 
