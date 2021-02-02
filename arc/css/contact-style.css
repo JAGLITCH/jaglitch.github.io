@@ -38,8 +38,7 @@ body
     height: 40%;
     max-width: 100%;
     z-index: -1;
-    position: absolute;
-    bottom: 8vh;
+    
   }
   .map
   {
