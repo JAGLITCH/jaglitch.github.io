@@ -80,9 +80,47 @@ nav
   transition: all 0.5s ease;
 }
 
+footer
+{
+  width: 100%;
+  height: 10vh;
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+  overflow: hidden;
+  z-index: -1;
+  
+} 
+footer p
+{
+  display: flex;
+  float: column;
+  line-height: 2em;
+  color: whitesmoke;
+  
+}
 
+.facebook
+{
+  height: 5vh;
+  width: 10vw;
+  position: absolute;
+  right: 0;
+  top: 0;
+  
+}
 
+.facebook i
+{
+  font-size: 3em;
+  color:#4267B2;
+  
+}
 
+.facebook i:hover
+{
+  color: whitesmoke;
+}
 @media screen and (max-width:1024px)
 {
   .nav-links

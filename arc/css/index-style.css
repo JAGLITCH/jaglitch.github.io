@@ -1,14 +1,19 @@
 /* index  style */
 
-
+.mpg
+{
+  max-width: 100vw;
+  max-height: 100vh;
+  
+  
+}
 .mpg img
 {
    
-  width: 100%;
-  height: 100%;
-  padding: 5%;
-  position: absolute; bottom: 30px;
-  display: block;
-  object-fit: contain;
+  max-width: 100vw;
+  height: auto;
+  position: absolute;
+  top: 20vh;
+  display: flex;
   z-index: -1;
 }
