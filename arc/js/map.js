@@ -6,7 +6,7 @@ function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 15,
       center: ellicottville,
-      disableDefaultUI: true,
+      
     
     });
     // The marker, positioned at Uluru
