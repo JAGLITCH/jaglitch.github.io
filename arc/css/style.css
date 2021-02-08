@@ -15,7 +15,8 @@ nav
   align-items: center;
   min-height: 8vh;
   background-color: #da0c24;
-  font-family: 'Righteous', cursive;
+  font-family: 'Geo', sans-serif;
+  
 }
 
 .logo
@@ -91,11 +92,15 @@ nav
 }
 footer
 {
+  display: flexbox;
+  
   width: 100%;
   height: 10vh;
   position: absolute;
   bottom: 0;
+  
   background-color: #252727;
+
   overflow: hidden;
   
   
@@ -137,11 +142,13 @@ footer p
     width: 60%;
 
   }
+
+  
 }
 
 @media screen and (max-width:768px)
 {
-
+  
  
  
   .nav-links
