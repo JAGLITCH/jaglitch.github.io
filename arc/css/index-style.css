@@ -31,6 +31,20 @@ body
   display: flex;
   overflow: hidden;
 }
+@media screen and (max-height:500px)
+{
+
+  
+  
+  .mpg img 
+  {
+    
+    height: 70%;
+    width: auto;
+    margin-left: 30vw;
+    
+  }
+}
 
 @media screen and (max-width:768px)
 {
@@ -46,19 +60,4 @@ body
     display: flex;
     overflow: hidden;
 
-}
-@media screen and (max-height:500px)
-{
-
-  
-  
-  .mpg img 
-  {
-    height: 100%;
-    width: auto;
-    margin-left: 75%;
-    
-    padding-bottom: 30%;
-    
-  }
 }
