@@ -27,6 +27,7 @@ body
   position: absolute;
   margin-top: 2vh;
   margin-left: 20vw;
+  margin-bottom: 10vh;
   display: flex;
   overflow: hidden;
 }
@@ -45,4 +46,19 @@ body
     display: flex;
     overflow: hidden;
 
+}
+@media screen and (max-height:500px)
+{
+
+  
+  
+  .mpg img 
+  {
+    height: 100%;
+    width: auto;
+    margin-left: 75%;
+    
+    padding-bottom: 30%;
+    
+  }
 }
