@@ -80,38 +80,25 @@ nav
   transition: all 0.5s ease;
 }
 
-.bar
-{
-  width: 100%;
-  height: 2%;
-  position: absolute;
-  display: inline-flexbox;
-  top: 8vh;
-  background-color: #252727;
 
-}
 footer
 {
   display: flexbox;
-  
   width: 100%;
   height: 10vh;
   position: absolute;
   bottom: 0;
-  
   background-color: #252727;
-
   overflow: hidden;
-  
-  
 } 
+
 footer p
 {
   display: flex;
-  float: column;
+  flex-direction: column;
+  align-items: center;
   line-height: 2em;
   color: whitesmoke;
-  
 }
 
 .facebook
@@ -129,12 +116,14 @@ footer p
   font-size: 3em;
   color:#4267B2;
   
+  
 }
 
 .facebook i:hover
 {
   color: whitesmoke;
 }
+
 @media screen and (max-width:1024px)
 {
   .nav-links
@@ -148,9 +137,8 @@ footer p
 
 @media screen and (max-width:768px)
 {
-  
 
-  .nav-links
+.nav-links
   {
    
     position: absolute;
@@ -191,6 +179,21 @@ footer p
   
   
 }
+
+@media screen and (max-height:500px)
+{
+  footer p
+  {
+    
+    margin-left: 15vw;
+    display: inline-flex;
+    justify-content: space-around;
+    line-height: 2em;
+    color: whitesmoke;
+  }
+}
+
+
 
 @keyframes navLinkFade
 {

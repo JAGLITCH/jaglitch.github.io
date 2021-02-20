@@ -6,81 +6,197 @@ body
   overflow: hidden;
 }
 
-.contact
-{
-  height: 50%;
-  width: 100%;
-  font-family: 'Big Shoulders Display', cursive;
-  padding: 5%;
-  position: relative;
-  object-fit: contain;
-  background-color: #252727;
-  
-  
-  
-}
 
-.contact h2
-{
-  line-height: 105%;
-   font-size: 1.8em;
-   letter-spacing: 3px;
-  
-}
+  .contact
+  {
+    height: 50%;
+    width: 100%;
+    font-family: 'Big Shoulders Display', cursive;
+    padding: 5%;
+    position: relative;
+    object-fit: contain;
+    background-color: #252727;
+  }
 
-.contact p
-{
+  .contact h2
+  {
+    line-height: 105%;
+    font-size: 1.8em;
+    letter-spacing: 3px; 
+  }
+
+  .contact p
+  {
     line-height: 105%;
     letter-spacing: 2px;
-}
-.call
-{
-  margin: 2.55%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: whitesmoke;
-}
+  }
 
-.email
-{
-  margin: 2.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: whitesmoke;
-}
-.connect
-{
-  margin: 2.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: whitesmoke;
+ .call
+  { 
+    margin: 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+  }
 
-}
-.location
-{
-  margin: 2.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: whitesmoke;
-}
+  .email
+  {
+    margin: 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+
+  .connect
+  {
+    margin: 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+
+  .location
+  {
+    margin: 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+  }
 
 
 
-/* Set the size of the div element that contains the map */
-#map
- {
+ /* Set the size of the div element that contains the map */
+  #map
+  {
     display: flexbox;
     height: 25%;
     width: 87%;
     margin: 6%;
     position: absolute;
-    bottom: 8.5vh;
-    
-    
+    bottom: 8.5vh;  
   }
- 
+
+
+
+
+
+
   
+  @media screen and (min-width:769px)
+ {
+   .call
+   {
+     margin: .5%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: whitesmoke;
+   }
+
+   .email
+   {
+     margin: .5%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: whitesmoke;
+   }
+
+   .connect
+  {
+    margin: .5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+
+  .location
+  {
+    margin: .5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+
+  #map
+  {
+    display: flexbox;
+    height: 35vh;
+    width: 90vw;
+    margin-bottom: 0;
+    margin-left: 5vw;
+    position: absolute;
+    bottom: 10vh;  
+  }
+ }  
+
+ @media screen and (max-height:500px)
+ {
+   .call
+  {
+    width: 45%;
+    margin-top: 2vh;
+    margin-bottom: 0;
+    margin-left: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+
+  .email
+  {
+    width: 45%;
+    margin-left: 55%;
+    margin-top: .5%;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+
+  .connect
+ {
+   width: 45%;
+   margin-left: 55%;
+   margin-top: .5%;
+   margin-bottom: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: whitesmoke;
+ }
+
+ .location
+ {
+   width: 45%;
+   margin-left: 55%;
+   margin-top: .5%;
+   margin-bottom: 10vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: whitesmoke;
+ }
+   
+   #map
+  {
+   
+    display: flexbox;
+    height: 75vh;
+    width: 50vw;
+    margin-bottom: 0;
+    margin-left: 2vw;
+    position: absolute;
+    bottom: 10vh;  
+  }
+
+ }
+
