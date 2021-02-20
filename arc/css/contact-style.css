@@ -136,7 +136,7 @@ body
   }
  }  
 
- @media screen and (max-height:730px)
+ @media screen and (max-height:500px)
  {
   .contact h2
   {
