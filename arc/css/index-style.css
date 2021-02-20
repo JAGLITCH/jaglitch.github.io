@@ -3,7 +3,6 @@ body
 {
   max-height: 100vh;
   width: 100%;
-
   overflow: hidden;
   background-color: #252727;
   display: flexbox;
@@ -29,6 +28,7 @@ body
   margin-top: 2vh;
   margin-left: 20vw;
   display: flex;
+  overflow: hidden;
 }
 
 @media screen and (max-width:768px)
@@ -43,6 +43,6 @@ body
     left: -45vw;
     margin-top: 10vh;
     display: flex;
-    
+    overflow: hidden;
 
 }
