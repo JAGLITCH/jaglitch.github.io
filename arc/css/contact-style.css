@@ -144,15 +144,18 @@ body
   {
     
     line-height: 100%;
-    font-size: 1em;
+    font-size: 2em;
     letter-spacing: 3px; 
+    padding: 2%;
   }
 
   .contact p
   {
     line-height: 100%;
     letter-spacing: 2px;
-    font-size: .5em;
+    font-size: 1em;
+    
+    
   }
    
    .call
@@ -164,7 +167,7 @@ body
     top: 30px;
     margin-left: 55%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     background-color: whitesmoke;
   }
@@ -176,7 +179,7 @@ body
     margin-top: .5%;
     margin-bottom: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     background-color: whitesmoke;
   }
@@ -188,8 +191,8 @@ body
    margin-top: .5%;
    margin-bottom: 0;
    display: flex;
-   flex-direction: column;
-   align-items: center;
+   flex-direction: row;
+   align-items: row;
    background-color: whitesmoke;
  }
 
@@ -200,7 +203,7 @@ body
    margin-top: .5%;
    margin-bottom: 20%;
    display: flex;
-   flex-direction: column;
+   flex-direction: row;
    align-items: center;
    background-color: whitesmoke;
  }
@@ -212,7 +215,7 @@ body
     height: 50vh;
     width: 50vw;
     position: absolute;
-    top: 30px;
+    top: 33px;
     margin-left: 2vw;
     position: absolute;
       
