@@ -29,6 +29,7 @@ body
   margin-left: 20vw;
   margin-bottom: 10vh;
   display: flex;
+  
   overflow: hidden;
 }
 
@@ -53,14 +54,7 @@ body
 @media screen and (max-height:500px)
 {
 
+  /*img in small height needs work*/  
   
   
-  .mpg img 
-  {
-    
-    height: 60%;
-    width: auto;
-    margin-left: 65vw;
-    
-  }
 }
