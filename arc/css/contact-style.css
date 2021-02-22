@@ -130,9 +130,9 @@ body
   {
     display: flexbox;
     max-height: 44vh;
-    width: 90vw;
+    width: 89vw;
     margin-bottom: 0;
-    margin-left: 5vw;
+    margin-left: 5.5vw;
     position: absolute;
     bottom: 10vh;  
   }
@@ -146,7 +146,7 @@ body
   {
     
     line-height: 100%;
-    font-size: 2em;
+    font-size: 1.8em;
     letter-spacing: 3px; 
     padding: 2%;
   }
@@ -154,10 +154,14 @@ body
   .contact p
   {
     line-height: 100%;
-    letter-spacing: 2px;
+    letter-spacing: 1.8px;
     font-size: 1em;
     
     
+  }
+  .contact i
+  {
+    font-size: 1.8em;
   }
    
    .call

@@ -14,7 +14,7 @@ nav
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: #da0c24;
+  background-color: #a71021;
   font-family: 'Big Shoulders Display', cursive;
   
 }
@@ -98,7 +98,13 @@ footer p
   flex-direction: column;
   align-items: center;
   line-height: 2em;
+  font-size: 2vh;
+  padding bottom: 1vh;
   color: whitesmoke;
+}
+footer i
+{
+  font-size: 1.8vh;
 }
 
 .facebook
