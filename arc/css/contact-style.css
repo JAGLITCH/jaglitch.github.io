@@ -166,7 +166,7 @@ body
    
    .call
   {
-    height: 10vh;
+    height: 12vh;
     width: 45%;
     margin-top: 0;
     margin-bottom: 0;
@@ -207,7 +207,7 @@ body
 
  .location
  {
-   height: 10vh;
+   height: 12vh;
    width: 45%;
    margin-left: 55%;
    margin-top: .5%;
@@ -225,7 +225,7 @@ body
     height: 50vh;
     width: 50vw;
     position: absolute;
-    top: 28px;
+    top: 32px;
     margin-left: 2vw;
     position: absolute;
       
