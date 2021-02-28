@@ -12,11 +12,11 @@ body
 
 .grid-container
 {
-    height: 100vh;
+    min-height: 100%;
     display: grid;
     
     grid-template-columns: 25vw 25vw 25vw 25vw;
-    grid-template-rows: 80vh 20vh 5vh;
+    grid-template-rows: 80vh 40vh 5vh;
     grid-row-gap: 5vh;
     margin-top: 2vh;
     justify-content: center;
@@ -44,8 +44,11 @@ body
   {
     background-color: whitesmoke;
     grid-row-start: 2;
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    margin-left: 5%;
+    margin-right: 5%;
+    
   }
 
 .footer
@@ -55,7 +58,7 @@ body
   grid-row-start: 3;
   background-color: #252727;
   color: grey;
- 
+  
   font-size: 1em;
  
 }
