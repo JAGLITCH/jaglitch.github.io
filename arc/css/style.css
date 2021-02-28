@@ -90,6 +90,7 @@ nav
   {
     width: 60%;
 
+
   }
 }
 
@@ -97,19 +98,22 @@ nav
 
 @media screen and (max-width:768px)
 {
-  .nav
-  {
-    top: 0;
-  }
+  
+nav
+{
+  width: 100vw;
+  position: fixed;
+  top: 0;
+}
 
 .nav-links
   {
    
-    position: absolute;
+    position: fixed;
     right: 0px;
     max-height: 100vh;
     top: 8vh;
-    bottom: 0vh;
+    bottom: 0;
     background-color: #252727;
     display: flex;
     flex-direction: column;
@@ -138,6 +142,7 @@ nav
 {
   
   width: 50%;
+  
   opacity: 1;
   transform: translateX(0%); 
   
@@ -151,14 +156,14 @@ nav
 {
   from
   {
-    overflow: hidden;
+    
     opacity: 0;
     transform: translateX(50px);
   }
   to
   {
     
-    overflow: hidden;
+    
     opacity: 1;
     
     transform: translateX(0);
