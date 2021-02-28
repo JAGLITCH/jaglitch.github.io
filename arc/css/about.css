@@ -9,7 +9,7 @@ body
     display: grid;
     background-color: #252727;
     grid-template-columns: auto auto auto auto auto;
-    grid-template-rows: 10vh 60vh 5vh;
+    grid-template-rows: 10vh 65vh 5vh;
     grid-row-gap: 5vh;
     margin-top: 2vh;
     margin-left: 5vw;
@@ -37,7 +37,7 @@ body
 
 .footer
 {
-    background-color: whitesmoke;
+    background-color: #252727;
     grid-row-start: 3;
     grid-column-start: 1;
     grid-column-end: 6;

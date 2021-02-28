@@ -47,7 +47,7 @@ body
 }
 .footer
 {
-    background-color: whitesmoke;
+    background-color: #252727;
     grid-row-start: 4;
     grid-column-start: 1;
     grid-column-end: 6;
