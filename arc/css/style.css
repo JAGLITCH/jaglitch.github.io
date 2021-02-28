@@ -96,7 +96,7 @@ nav
 
 
 
-@media screen and (max-width:768px)
+@media screen and (max-width: 815px)
 {
   
 nav
@@ -118,6 +118,7 @@ nav
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 25%;
     width: 0;
     transform: translateX(100%);
     transition: transform .3s ease-in;
