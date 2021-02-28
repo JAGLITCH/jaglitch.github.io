@@ -16,7 +16,7 @@ body
     display: grid;
     
     grid-template-columns: 25vw 25vw 25vw 25vw;
-    grid-template-rows: 80vh 5vh;
+    grid-template-rows: 70vh 5vh;
     grid-row-gap: 5vh;
     margin-top: 2vh;
     justify-content: center;
