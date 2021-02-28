@@ -1,6 +1,7 @@
 body
 {
   background-color: #252727;
+  overflow: hidden;
 }
 
 .grid-container
