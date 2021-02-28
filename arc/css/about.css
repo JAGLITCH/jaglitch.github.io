@@ -1,12 +1,12 @@
 body
 {
   background-color: #252727;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .grid-container
 {
-    height: 80vh;
+    height: 100%;
     display: grid;
     background-color: #252727;
     grid-template-columns: auto auto auto auto auto;
@@ -44,4 +44,12 @@ body
     grid-column-start: 1;
     grid-column-end: 6;
     text-align: center;
+}
+
+@media screen and (max-width:768px)
+{
+    .grid-container
+    {
+       margin-top: 15vh;
+    }
 }

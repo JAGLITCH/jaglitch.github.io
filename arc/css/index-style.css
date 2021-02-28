@@ -14,7 +14,6 @@ body
 {
     min-height: 100%;
     display: grid;
-    
     grid-template-columns: 25vw 25vw 25vw 25vw;
     grid-template-rows: 80vh 40vh 5vh;
     grid-row-gap: 5vh;
@@ -58,8 +57,8 @@ body
   grid-row-start: 3;
   background-color: #252727;
   color: grey;
-  
-  font-size: 1em;
+  text-align: center;
+  font-size: 1.5vh;
  
 }
 
