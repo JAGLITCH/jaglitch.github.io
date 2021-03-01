@@ -15,7 +15,7 @@ body
     min-height: 100%;
     display: grid;
     grid-template-columns: 25vw 25vw 25vw 25vw;
-    grid-template-rows: 80vh 40vh 5vh;
+    grid-template-rows: 80vh 40vh 30vh 5vh;
     grid-row-gap: 5vh;
     margin-top: 2vh;
     justify-content: center;
@@ -47,6 +47,7 @@ body
     grid-column-end: 5;
     margin-left: 5%;
     margin-right: 5%;
+    text-align: center;
     
   }
 
@@ -54,7 +55,7 @@ body
 {
   grid-column-start: 1;
   grid-column-end: 5;
-  grid-row-start: 3;
+  grid-row-start: 4;
   background-color: #252727;
   color: grey;
   text-align: center;
@@ -62,11 +63,20 @@ body
  
 }
 
+.photo
+{
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: whitesmoke;
+}
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 650px)
 {
     .grid-container
     {
-       margin-top: 12vh;
+       margin-top: 10vh;
     }
 }
