@@ -15,7 +15,7 @@ body
     min-height: 100%;
     display: grid;
     grid-template-columns: 25vw 25vw 25vw 25vw;
-    grid-template-rows: 80vh 40vh 30vh 5vh;
+    grid-template-rows: 80vh 40vh 75vh 5vh;
     grid-row-gap: 5vh;
     margin-top: 2vh;
     justify-content: center;
@@ -70,8 +70,11 @@ body
   grid-column-end: 5;
   margin-left: 5%;
   margin-right: 5%;
-  background-color: whitesmoke;
-}
+  background-image: url("../assets/yeah-man.jpeg");
+  background-size: 75vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}  
 
 @media screen and (max-width: 650px)
 {
